@@ -24,5 +24,48 @@ h1, h2, h3 {
 .site-nav ul {
     list-style: grid;
     grid-template: auto / auto auto auto auto auto;
-    gap: 34px:
+    gap: 34px;
+    width: max-content;
+    margin: 0 auto;
+    padding: 16px 24px;
+}
+
+
+.site-nav a {
+    color: #FBF8F3;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.site-footer {
+    background: #1D1B18;
+    color: #FBF8F3;
+}
+
+.site-footer .inner {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    margin: 0 auto;
+    padding: 34px 24px;
+}
+
+
+.site-footer a {
+    color: #FBF8F3;
+}
+
+.site-footer .right { 
+    text-align: right;
+}
+
+.hero {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    
 }
